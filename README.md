@@ -8,8 +8,7 @@ obstacle course, consisting of a starting area, a bump, a ramp, and a wall. Addi
 robot must successfully deliver a ping-pong ball over the wall (see Fig. 1).
 
 ![image](https://github.com/user-attachments/assets/046e8f99-8024-4e7e-8e3c-e8cbae945a50)
-
-Fig. 1. Schematics for the obstacle course
+*Fig. 1. Schematics for the obstacle course*
 
 ### 1.2. Project Constraints
 There are five constraints that were imposed for the project:
@@ -20,7 +19,7 @@ There are five constraints that were imposed for the project:
 - The robot has up to 30 seconds to complete the course.
 
 ## 2. Ideation and Prototyping
-This section of the report discusses the initial hardware and software designs of our robot. Initially, a four-motor design with a catapult used to launch a ping-pong ball was considered, but it was heavy and exceeded the prescribed dimensions. Taking into consideration the practicality and functionality of the robot components, the design was simplified to a two-motor configuration with a cannon, significantly reducing its weight and size. In the subsequent sub-sections, we will discuss the design and considerations of the components in our two-motor prototype.
+Initially, a four-motor design with a catapult used to launch a ping-pong ball was considered, but it was heavy and exceeded the prescribed dimensions. Taking into consideration the practicality and functionality of the robot components, the design was simplified to a two-motor configuration with a cannon, significantly reducing its weight and size.
 
 ### 2.1 The Body
 For our initial prototype, we identified that the main purpose of the robot body was to support the weight of the Arduino, the breadboard, and the catapult. We decided to use cardboard as the main material as it serves this purpose while being lightweight. Additionally, it provides the flexibility for any design adjustments, which is advantageous for an initial prototype, as compared to less flexible materials such as acrylic. The body features a rectangular base with walls to prevent the internal components from falling off, and a roof for the ultrasonic sensor and catapult attachment (see Appendix B and C for more details).  
@@ -35,8 +34,7 @@ We figured that the servo motor may not have sufficient power to launch the ping
 The code consists of five primary functions (labelled in red in Fig. 2). Fig. 2 illustrates our initial thought process for the code in a flowchart. The complete source code can be found in Appendix D.
 
 ![image](https://github.com/user-attachments/assets/ad2c1ae3-f729-41df-b29a-0d1575a7dcd5)
-
-Fig. 2. Flowchart for code (flawed)
+*Fig. 2. Flowchart for code (flawed)*
 
 ### 2.5 The Circuit
 In the circuit, a single H-bridge was used for two motors to allow for motor reversal. Both motor wires are connected to the H-bridge output pins to alternate between high and low voltages, to reverse the motors. To reduce weight, both sides of the breadboard were removed (see Appendix E for the complete circuit).
@@ -51,6 +49,10 @@ Equipped with only 2 motors, our robot experienced stability issues, including l
 The wheels were initially too close to each other, causing both wheels to contact the bump (first obstacle) simultaneously. Since both front and back wheels were rotating clockwise, a resultant upward force acts on the front of the robot, causing it to rotate counterclockwise, hence toppling over (see Fig. 3).
 The initial testing also revealed issues with both the jagged and the round wheel prototypes. Both lacked sufficient traction, preventing them from successfully completing the obstacle course. Their failure could be attributed to the smooth surfaces that were created during laser cutting.
 
+![image](https://github.com/user-attachments/assets/ea65e77e-a0f2-4fbf-8e64-6915fdef564b)
+*Fig. 3. Issue with wheels*
+
+
 ### 3.3 Catapult Size and Design
 The oversized catapult design, which was also longer than the robot’s body, worsened the stability issues we mentioned earlier. The design raised the robot’s centre of gravity, leading to issues when scaling the ramp (second obstacle) – the robot would frequently topple backward due to its weight generating a counterclockwise moment (see Fig. 4).
 
@@ -62,7 +64,6 @@ In our initial test run, we encountered a bug in the code. The code worked relat
 In the subsequent test runs, we also needed to adjust the ultrasonic sensor’s detection range, especially when using a 9V power supply. As the robot’s speed increased in these subsequent runs, it was imperative for the sensor to detect the wall at a much longer distance to guarantee the robot’s timely halt. The issue primarily stemmed from the robot’s inertia. 
 
 ## 4. Prototype Improvements
-In the previous section, we outlined the challenges encountered during the construction of our robot. In this section, we will go through the steps taken to resolve these issues. 
 
 ### 4.1 Addressing Stability Issues
 To address the problem with the weight distribution, we conducted multiple tests to obtain the optimal placement of the internal components. To enhance stability, we widened the robot’s base by attaching wheel couplers onto each wheel and reduced its overall body size. Additionally, to eliminate unwanted swaying, we used adhesive to secure the internal components, and switched the body material to corrugated polypropene for its increased rigidity and durability, as compared to cardboard. We also reconsidered the practicality of the catapult design and ultimately chose to remove it, considering it to be impractical for a robot operating with only two motors.
