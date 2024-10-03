@@ -163,8 +163,7 @@ To eliminate the code bug, we implemented a Boolean variable to track whether th
 | 24 – 31 |	Function to make the robot stop moving by setting all the wires to LOW, which stops all current flow into the wire. |
 | 33 – 40 |	Function to move the robot backwards by setting one of the wires of the motor as HIGH and the other as LOW (ground wire). Notice that this is the opposite of the forward function to ensure that current now flows in the reverse direction. |
 | 42 – 55 |	Sets up the relevant output and input pins (only once). |
-| 59 – 63	| The ultrasonic sensor’s main function. Sends out a pulse and the time for the pulse to hit the wall and back is stored.
-Distance calculation can be done with this duration that was measured. |
+| 59 – 63	| The ultrasonic sensor’s main function. Sends out a pulse and the time for the pulse to hit the wall and back is stored. Distance calculation can be done with this duration that was measured. |
 | 65 – 72	| When it reaches within 11 cm of the wall, the robot will stop and launch the ball. The Boolean “stopped_once” is updated to true, making “!stopped_once” false, preventing the code from entering this condition ever again. |
 | 73 – 75	| Robot will only move backwards if it has stopped once before. |
 | 76 – 78	| If the robot has not reached the wall, move forward. |
