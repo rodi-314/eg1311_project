@@ -102,56 +102,63 @@ To eliminate the code bug, we implemented a Boolean variable to track whether th
 ## Appendix
 
 ### Appendix A (Robot Photographs)
-Final Robot 1 (Used in the first two graded runs)
-![image](https://github.com/user-attachments/assets/c615f243-5932-48c8-9c7f-27e3c896f3b8)
 
+![image](https://github.com/user-attachments/assets/cadc4909-f375-4ae9-bf3b-406e91516078)
 
-Final Robot 2 (Used in the final graded run to reduce weight)
+*Final Robot 1 (Used in the first two graded runs)*
+
+![image](https://github.com/user-attachments/assets/ea475483-7bbc-4fd1-88a0-e72270c05946)
+
+*Final Robot 2 (Used in the final graded run to reduce weight)*
   
 ### Appendix B (CAD Rendering – Final Robots)
-Final Robot 1 (Used in the first two graded runs)
 
- 
+![image](https://github.com/user-attachments/assets/c615f243-5932-48c8-9c7f-27e3c896f3b8)
 
-Final Robot 2 (Used in the final graded run to reduce weight)
+_Final Robot 1 (Used in the first two graded runs)_
+
+![image](https://github.com/user-attachments/assets/57a0f957-9f14-4c62-b314-7c975f6610f5)
+
+_Final Robot 2 (Used in the final graded run to reduce weight)_
 
  
  
-Final Robot 1 (Used in the first two graded runs)
+_Final Robot 1 (Used in the first two graded runs)_
 
  
 
 
  
-Final Robot 2 (Used in the final graded run to reduce weight)
+_Final Robot 2 (Used in the final graded run to reduce weight)_
 
 
 
  
 ### Appendix C (2D CAD Drawings – Final Robots)
-Final Robot 1 (Used in the first two graded runs)
+_Final Robot 1 (Used in the first two graded runs)_
 
-Final Robot 2 (Used in the final graded run to reduce weight)
-Cannon Box (without rubber bands)
+_Final Robot 2 (Used in the final graded run to reduce weight)_
+_Cannon Box (without rubber bands)_
 
-Cannon Box (with rubber bands)
+_Cannon Box (with rubber bands)_
 
-Battery Holder (Used only in Final Robot 1)
+_Battery Holder (Used only in Final Robot 1)_
  
 
-Ultrasonic Sensor Holder
+_Ultrasonic Sensor Holder_
 
 
-Acrylic Wheels (Final Robot 1)
+_Acrylic Wheels (Final Robot 1)_
 
-Cardboard Wheels (Final Robot 2)
+_Cardboard Wheels (Final Robot 2)_
 
-Main Body (Final Robot 1) 
+_Main Body (Final Robot 1) _
 
 
-Main Body (Final Robot 2)
+_Main Body (Final Robot 2)_
 
 ### Appendix D (Arduino Code)
+
 Code Flowchart
 Explanation of Code 
 Lines	Purpose
