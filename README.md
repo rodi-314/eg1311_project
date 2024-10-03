@@ -1,6 +1,6 @@
 # EG1311 — Design and Make Project
 
-This group project was completed as part of the EG1311 Design and Make course taught at the National University of Singapore (NUS). For more information, view the full report [here](<EG1311 Project Report.pdf>)
+This group project was completed as part of the EG1311 Design and Make course taught at the National University of Singapore (NUS). For more information and details, view the full report [here](<EG1311 Project Report.pdf>)
 
 ![image](https://github.com/user-attachments/assets/15f44600-f556-4e75-94f0-337a130c1e59)
 
@@ -98,5 +98,82 @@ To eliminate the code bug, we implemented a Boolean variable to track whether th
 ![image](https://github.com/user-attachments/assets/f83f6343-a234-4aca-9231-71022af939e2)
 
 *Fig. 6. Revised Code Flowchart (changes in red)*
+
+## Appendix
+
+### Appendix A (Robot Photographs)
+Final Robot 1 (Used in the first two graded runs)
+![image](https://github.com/user-attachments/assets/c615f243-5932-48c8-9c7f-27e3c896f3b8)
+
+
+Final Robot 2 (Used in the final graded run to reduce weight)
+  
+### Appendix B (CAD Rendering – Final Robots)
+Final Robot 1 (Used in the first two graded runs)
+
+ 
+
+Final Robot 2 (Used in the final graded run to reduce weight)
+
+ 
+ 
+Final Robot 1 (Used in the first two graded runs)
+
+ 
+
+
+ 
+Final Robot 2 (Used in the final graded run to reduce weight)
+
+
+
+ 
+### Appendix C (2D CAD Drawings – Final Robots)
+Final Robot 1 (Used in the first two graded runs)
+
+Final Robot 2 (Used in the final graded run to reduce weight)
+Cannon Box (without rubber bands)
+
+Cannon Box (with rubber bands)
+
+Battery Holder (Used only in Final Robot 1)
+ 
+
+Ultrasonic Sensor Holder
+
+
+Acrylic Wheels (Final Robot 1)
+
+Cardboard Wheels (Final Robot 2)
+
+Main Body (Final Robot 1) 
+
+
+Main Body (Final Robot 2)
+
+### Appendix D (Arduino Code)
+Code Flowchart
+Explanation of Code 
+Lines	Purpose
+4 – 13	Set the pin numbers and some of the variables that are used in the code. All the variables are compiled here for ease of change when required.
+15 – 22	Function to make the robot move forward by setting one of the wires of the motor as HIGH and the other as LOW (ground wire).
+24 – 31	Function to make the robot stop moving by setting all the wires to LOW, which stops all current flow into the wire.
+33 – 40	Function to move the robot backwards by setting one of the wires of the motor as HIGH and the other as LOW (ground wire). Notice that this is the opposite of the forward function to ensure that current now flows in the reverse direction.
+42 – 55	Sets up the relevant output and input pins (only once).
+59 – 63	The ultrasonic sensor’s main function. Sends out a pulse and the time for the pulse to hit the wall and back is stored.
+Distance calculation can be done with this duration that was measured. 
+65 – 72	When it reaches within 11 cm of the wall, the robot will stop and launch the ball. The Boolean “stopped_once” is updated to true, making “!stopped_once” false, preventing the code from entering this condition ever again.
+73 – 75	Robot will only move backwards if it has stopped once before.
+76 – 78	If the robot has not reached the wall, move forward.
+  
+### Appendix E (Electrical Circuits – TinkerCAD Diagrams)
+Final 9V Circuit Design (Used for graded runs)
+
+5V Circuit Design (Used in previous prototypes)
+Appendix F (Explanation for Increased Wheel Diameter)
+ 
+The normal contact force from the bump on the wheel provides for the vertical movement of the wheel, while impeding the horizontal movement of the wheel. When R ≤ 3 cm, the horizontal component of this normal contact force is maximum and equal to F, and the vertical component is zero, hence there is no lift and forward momentum for the wheel to mount the bump. However, when R > 3 cm, the horizontal component of this normal contact force is less than F, while the vertical component of this normal contact force provides the lift for the wheel. Therefore, a large enough wheel radius > 3 cm (diameter > 6 cm) is required for the wheel to mount the bump.
+
+
 
 
