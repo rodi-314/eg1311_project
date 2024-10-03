@@ -1,5 +1,7 @@
 # EG1311 — Design and Make Project
 
+![image](https://github.com/user-attachments/assets/cc47f052-4923-4dcc-bb20-e3b72666fdc9)
+
 ## 1. Introduction
 
 ## 1.1. Project Aim
