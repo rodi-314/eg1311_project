@@ -150,12 +150,10 @@ To eliminate the code bug, we implemented a Boolean variable to track whether th
 
 ### Appendix D (Arduino Code)
 
+#### Code Flowchart
 ![image](https://github.com/user-attachments/assets/d6fbce7a-afd3-42d7-a0bd-6f11c0847c55)
 
-_Code Flowchart_
-
 #### Explanation of Code 
-
 ![image](https://github.com/user-attachments/assets/4449eb4e-3105-4cf9-b6bc-551083c892eb)
 
 | Lines |	Purpose |
@@ -180,7 +178,6 @@ Distance calculation can be done with this duration that was measured. |
 ![image](https://github.com/user-attachments/assets/c40b8c7f-d101-4135-80db-46f24cf7a73f)
 
 ### Appendix F (Explanation for Increased Wheel Diameter)
-
 ![image](https://github.com/user-attachments/assets/5a3134f9-a971-4565-9429-e32cea4da43c)
  
 The normal contact force from the bump on the wheel provides for the vertical movement of the wheel, while impeding the horizontal movement of the wheel. When R ≤ 3 cm, the horizontal component of this normal contact force is maximum and equal to F, and the vertical component is zero, hence there is no lift and forward momentum for the wheel to mount the bump. However, when R > 3 cm, the horizontal component of this normal contact force is less than F, while the vertical component of this normal contact force provides the lift for the wheel. Therefore, a large enough wheel radius > 3 cm (diameter > 6 cm) is required for the wheel to mount the bump.
