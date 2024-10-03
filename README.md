@@ -59,7 +59,6 @@ The initial testing also revealed issues with both the jagged and the round whee
 
 *Fig. 3. Issue with wheels*
 
-
 ### 3.3 Catapult Size and Design
 The oversized catapult design, which was also longer than the robot’s body, worsened the stability issues we mentioned earlier. The design raised the robot’s centre of gravity, leading to issues when scaling the ramp (second obstacle) – the robot would frequently topple backward due to its weight generating a counterclockwise moment (see Fig. 4).
 
@@ -103,9 +102,9 @@ To eliminate the code bug, we implemented a Boolean variable to track whether th
 
 ### Appendix A (Robot Photographs)
 
-![image](https://github.com/user-attachments/assets/cadc4909-f375-4ae9-bf3b-406e91516078)
+#### Final Robot 1 (Used in the first two graded runs)
 
-*Final Robot 1 (Used in the first two graded runs)*
+![image](https://github.com/user-attachments/assets/cadc4909-f375-4ae9-bf3b-406e91516078)
 
 ![image](https://github.com/user-attachments/assets/ea475483-7bbc-4fd1-88a0-e72270c05946)
 
