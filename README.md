@@ -157,7 +157,7 @@ To eliminate the code bug, we implemented a Boolean variable to track whether th
 ![image](https://github.com/user-attachments/assets/4449eb4e-3105-4cf9-b6bc-551083c892eb)
 
 | Lines |	Purpose |
-| :----- | :---------: |
+| :--------- | :---------: |
 | 4 – 13	| Set the pin numbers and some of the variables that are used in the code. All the variables are compiled here for ease of change when required. |
 | 15 – 22	| Function to make the robot move forward by setting one of the wires of the motor as HIGH and the other as LOW (ground wire).
 | 24 – 31 |	Function to make the robot stop moving by setting all the wires to LOW, which stops all current flow into the wire. |
@@ -167,7 +167,7 @@ To eliminate the code bug, we implemented a Boolean variable to track whether th
 | 65 – 72	| When it reaches within 11 cm of the wall, the robot will stop and launch the ball. The Boolean “stopped_once” is updated to true, making “!stopped_once” false, preventing the code from entering this condition ever again. |
 | 73 – 75	| Robot will only move backwards if it has stopped once before. |
 | 76 – 78	| If the robot has not reached the wall, move forward. |
-  
+| :--------- | :---------: |
 ### Appendix E (Electrical Circuits – TinkerCAD Diagrams)
 
 #### Final 9V Circuit Design (Used for graded runs)
