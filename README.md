@@ -8,6 +8,7 @@ obstacle course, consisting of a starting area, a bump, a ramp, and a wall. Addi
 robot must successfully deliver a ping-pong ball over the wall (see Fig. 1).
 
 ![image](https://github.com/user-attachments/assets/046e8f99-8024-4e7e-8e3c-e8cbae945a50)
+
 *Fig. 1. Schematics for the obstacle course*
 
 ### 1.2. Project Constraints
@@ -34,6 +35,7 @@ We figured that the servo motor may not have sufficient power to launch the ping
 The code consists of five primary functions (labelled in red in Fig. 2). Fig. 2 illustrates our initial thought process for the code in a flowchart. The complete source code can be found in Appendix D.
 
 ![image](https://github.com/user-attachments/assets/ad2c1ae3-f729-41df-b29a-0d1575a7dcd5)
+
 *Fig. 2. Flowchart for code (flawed)*
 
 ### 2.5 The Circuit
@@ -50,14 +52,23 @@ The wheels were initially too close to each other, causing both wheels to contac
 The initial testing also revealed issues with both the jagged and the round wheel prototypes. Both lacked sufficient traction, preventing them from successfully completing the obstacle course. Their failure could be attributed to the smooth surfaces that were created during laser cutting.
 
 ![image](https://github.com/user-attachments/assets/ea65e77e-a0f2-4fbf-8e64-6915fdef564b)
+
 *Fig. 3. Issue with wheels*
 
 
 ### 3.3 Catapult Size and Design
 The oversized catapult design, which was also longer than the robot’s body, worsened the stability issues we mentioned earlier. The design raised the robot’s centre of gravity, leading to issues when scaling the ramp (second obstacle) – the robot would frequently topple backward due to its weight generating a counterclockwise moment (see Fig. 4).
 
+![image](https://github.com/user-attachments/assets/09dfd60f-e137-4eb8-ad1d-be44eeb171bc)
+
+*Fig. 4. Issue with the catapult*
+
 ### 3.4 Motor Power and Efficiency
 Another factor that was overlooked was the torque demands on each motor. As each motor was responsible for driving two wheels, the increased friction acting on each motor imposed higher torque demands on them to sustain motion. Initially, our motors were powered by a 5V supply directly from the Arduino, which proved to be insufficient in generating the required torque. When the torque requirements exceed the maximum capacity of each motor, it reaches the stall condition, causing the motor to stall and resulting in a complete stop in the robot’s movement (see Fig. 5).
+
+![image](https://github.com/user-attachments/assets/f50c0d93-c104-48d4-b3d9-34316d3f65a2)
+
+*Fig. 5. Relationship between torque and power*
 
 ### 3.5 Code Bug
 In our initial test run, we encountered a bug in the code. The code worked relatively well for the forward part of the obstacle course but failed when attempting to reverse back to the starting area. The issue was that after the ultrasonic sensor detects the wall and initiates the function to reverse the robot, it would eventually move forward again when the detected distance exceeds five centimetres. This loop continues indefinitely, preventing the robot from reversing as intended.
@@ -79,4 +90,7 @@ Recognising our robot’s need for more power, we opted to directly supply the m
 
 ### 4.5 Addressing Code Issues
 To eliminate the code bug, we implemented a Boolean variable to track whether the robot had previously come to a stop. If the variable is true, it never moves forward again. After extensive testing, we determined that the ultrasonic sensor needed to detect the wall at a distance of 11 cm to ensure that the robot would come to a timely stop (see Fig. 6).
-Fig. 6. Revised Code Flowchart (changes in red)
+
+![image](https://github.com/user-attachments/assets/f83f6343-a234-4aca-9231-71022af939e2)
+
+*Fig. 6. Revised Code Flowchart (changes in red)*
