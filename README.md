@@ -2,6 +2,8 @@
 
 ![image](https://github.com/user-attachments/assets/15f44600-f556-4e75-94f0-337a130c1e59)
 
+For more information, view the full report [here](EG1311_Project_Report.pdf)
+
 ## 1. Introduction
 
 ## 1.1. Project Aim
@@ -96,3 +98,5 @@ To eliminate the code bug, we implemented a Boolean variable to track whether th
 ![image](https://github.com/user-attachments/assets/f83f6343-a234-4aca-9231-71022af939e2)
 
 *Fig. 6. Revised Code Flowchart (changes in red)*
+
+
