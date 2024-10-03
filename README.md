@@ -103,64 +103,50 @@ To eliminate the code bug, we implemented a Boolean variable to track whether th
 ### Appendix A (Robot Photographs)
 
 #### Final Robot 1 (Used in the first two graded runs)
-
 ![image](https://github.com/user-attachments/assets/cadc4909-f375-4ae9-bf3b-406e91516078)
 
+#### Final Robot 2 (Used in the final graded run to reduce weight)
 ![image](https://github.com/user-attachments/assets/ea475483-7bbc-4fd1-88a0-e72270c05946)
-
-*Final Robot 2 (Used in the final graded run to reduce weight)*
   
 ### Appendix B (CAD Rendering – Final Robots)
 
+#### Final Robot 1 (Used in the first two graded runs)
 ![image](https://github.com/user-attachments/assets/c615f243-5932-48c8-9c7f-27e3c896f3b8)
 
-_Final Robot 1 (Used in the first two graded runs)_
-
+#### Final Robot 2 (Used in the final graded run to reduce weight)
 ![image](https://github.com/user-attachments/assets/57a0f957-9f14-4c62-b314-7c975f6610f5)
-
-_Final Robot 2 (Used in the final graded run to reduce weight)_
  
 ### Appendix C (2D CAD Drawings – Final Robots)
 
+#### Final Robot 1 (Used in the first two graded runs)
 ![image](https://github.com/user-attachments/assets/097bd445-af16-4f04-8620-d8be88b41c3e)
 
-_Final Robot 1 (Used in the first two graded runs)_
-
+#### Final Robot 2 (Used in the final graded run to reduce weight)
 ![image](https://github.com/user-attachments/assets/fe76c03b-03d8-4de1-bf5c-6a6a1f114f2a)
 
-_Final Robot 2 (Used in the final graded run to reduce weight)_
-
+#### Cannon Box (without rubber bands)
 ![image](https://github.com/user-attachments/assets/cd7b8c2b-fad0-4a22-b9c9-bc56285ee44c)
 
-_Cannon Box (without rubber bands)_
-
+#### Cannon Box (with rubber bands)
 ![image](https://github.com/user-attachments/assets/cbdca976-cef0-4929-8357-3649f31c923f)
 
-_Cannon Box (with rubber bands)_
-
+#### Battery Holder (Used only in Final Robot 1)
 ![image](https://github.com/user-attachments/assets/80c0a3f1-1935-4bcd-9757-48ed866992fc)
 
-_Battery Holder (Used only in Final Robot 1)_
-
+#### Ultrasonic Sensor Holder
 ![image](https://github.com/user-attachments/assets/bfee1b4a-9feb-4691-9cc2-dc6072161d33)
 
-_Ultrasonic Sensor Holder_
-
+#### Acrylic Wheels (Final Robot 1)
 ![image](https://github.com/user-attachments/assets/818bca85-4067-4e21-bfc2-5d2eeeb8e9ea)
 
-_Acrylic Wheels (Final Robot 1)_
-
+#### Cardboard Wheels (Final Robot 2)
 ![image](https://github.com/user-attachments/assets/108a0414-ceee-4e44-abbe-0a59ac69e242)
 
-_Cardboard Wheels (Final Robot 2)_
-
+#### Main Body (Final Robot 1)
 ![image](https://github.com/user-attachments/assets/b5cc27d0-84b6-4372-b523-1ed7b981503b)
 
-_Main Body (Final Robot 1)_
-
+#### Main Body (Final Robot 2)
 ![image](https://github.com/user-attachments/assets/ee62fedc-ae38-45e3-a485-a9e1d1c22b81)
-
-_Main Body (Final Robot 2)_
 
 ### Appendix D (Arduino Code)
 
@@ -187,13 +173,11 @@ Distance calculation can be done with this duration that was measured. |
   
 ### Appendix E (Electrical Circuits – TinkerCAD Diagrams)
 
+#### Final 9V Circuit Design (Used for graded runs)
 ![image](https://github.com/user-attachments/assets/3e8ff3b9-9add-424b-b837-1b31e59f22e6)
 
-_Final 9V Circuit Design (Used for graded runs)_
-
+#### 5V Circuit Design (Used in previous prototypes)
 ![image](https://github.com/user-attachments/assets/c40b8c7f-d101-4135-80db-46f24cf7a73f)
-
-_5V Circuit Design (Used in previous prototypes)_
 
 ### Appendix F (Explanation for Increased Wheel Diameter)
 
