@@ -1,6 +1,6 @@
 # EG1311 — Design and Make Project
 
-![image](https://github.com/user-attachments/assets/cc47f052-4923-4dcc-bb20-e3b72666fdc9)
+![image](https://github.com/user-attachments/assets/15f44600-f556-4e75-94f0-337a130c1e59)
 
 ## 1. Introduction
 
