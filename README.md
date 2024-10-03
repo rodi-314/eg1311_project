@@ -5,6 +5,7 @@ The aim of this project is to design a self-powered robot capable of navigating 
 obstacle course, consisting of a starting area, a bump, a ramp, and a wall. Additionally, the
 robot must successfully deliver a ping-pong ball over the wall (see Fig. 1).
 
+![image](https://github.com/user-attachments/assets/046e8f99-8024-4e7e-8e3c-e8cbae945a50)
 Fig. 1. Schematics for the obstacle course
 
 ## Project Constraints
