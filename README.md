@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/15f44600-f556-4e75-94f0-337a130c1e59)
 
-For more information, view the full report [here](eg1311_project/EG1311_Project_Report.pdf)
+For more information, view the full report [here](EG1311 Project Report.pdf)
 
 ## 1. Introduction
 
