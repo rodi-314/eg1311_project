@@ -1,4 +1,4 @@
-# EG1311 — Design and Make Project
+# EG1311 Design and Make Project
 
 This group project was completed as part of the EG1311 Design and Make course taught at the National University of Singapore (NUS). For more information and details, view the full report [here](<EG1311 Project Report.pdf>).
 
